@@ -1,0 +1,33 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.beer-list {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:25px;
+}
+
+.beer-card {
+  /* border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: left;
+  width: max-content; */
+  background-color: #eee;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.beer-card img {
+max-width: 20%;
+height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.App{
+  margin: 10px;
+  padding: 10px;
+}
